@@ -12,9 +12,12 @@
 		37A3E49C2065E0C1008ED637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49A2065E0C1008ED637 /* Main.storyboard */; };
 		37A3E49E2065E0C1008ED637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49D2065E0C1008ED637 /* Assets.xcassets */; };
 		37A3E4A12065E0C1008ED637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49F2065E0C1008ED637 /* LaunchScreen.storyboard */; };
+		37A3E4A92065E13B008ED637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E4A82065E13A008ED637 /* GoogleService-Info.plist */; };
+		6D760D72DFAB834E3DE4D2A1 /* Pods_Movin_On_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movin_On_Up.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3E4932065E0C1008ED637 /* Movin-On-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movin-On-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3E4962065E0C1008ED637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A3E4982065E0C1008ED637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		37A3E49D2065E0C1008ED637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A3E4A02065E0C1008ED637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A3E4A22065E0C1008ED637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A3E4A82065E13A008ED637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EB9ADC0D53F947D6767098B /* Pods-Movin-On-Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.release.xcconfig"; sourceTree = "<group>"; };
+		C63E520113D8830ABC758E8B /* Pods-Movin-On-Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D760D72DFAB834E3DE4D2A1 /* Pods_Movin_On_Up.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		277B8F1EC581EC599EDC3540 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C63E520113D8830ABC758E8B /* Pods-Movin-On-Up.debug.xcconfig */,
+				7EB9ADC0D53F947D6767098B /* Pods-Movin-On-Up.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		37A3E48A2065E0C1008ED637 = {
 			isa = PBXGroup;
 			children = (
 				37A3E4952065E0C1008ED637 /* Movin-On-Up */,
 				37A3E4942065E0C1008ED637 /* Products */,
+				277B8F1EC581EC599EDC3540 /* Pods */,
+				8683AC78722C0D5F89E313C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,17 @@
 				37A3E49D2065E0C1008ED637 /* Assets.xcassets */,
 				37A3E49F2065E0C1008ED637 /* LaunchScreen.storyboard */,
 				37A3E4A22065E0C1008ED637 /* Info.plist */,
+				37A3E4A82065E13A008ED637 /* GoogleService-Info.plist */,
 			);
 			path = "Movin-On-Up";
+			sourceTree = "<group>";
+		};
+		8683AC78722C0D5F89E313C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37A3E4A52065E0C1008ED637 /* Build configuration list for PBXNativeTarget "Movin-On-Up" */;
 			buildPhases = (
+				E94880C33023A839966B0745 /* [CP] Check Pods Manifest.lock */,
 				37A3E48F2065E0C1008ED637 /* Sources */,
 				37A3E4902065E0C1008ED637 /* Frameworks */,
 				37A3E4912065E0C1008ED637 /* Resources */,
+				9AED7AAEFE02346F66686949 /* [CP] Embed Pods Frameworks */,
+				D9D55174AD2090615B73806B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A3E4A12065E0C1008ED637 /* LaunchScreen.storyboard in Resources */,
+				37A3E4A92065E13B008ED637 /* GoogleService-Info.plist in Resources */,
 				37A3E49E2065E0C1008ED637 /* Assets.xcassets in Resources */,
 				37A3E49C2065E0C1008ED637 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AED7AAEFE02346F66686949 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D55174AD2090615B73806B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94880C33023A839966B0745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movin-On-Up-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37A3E48F2065E0C1008ED637 /* Sources */ = {
@@ -272,6 +359,7 @@
 		};
 		37A3E4A62065E0C1008ED637 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63E520113D8830ABC758E8B /* Pods-Movin-On-Up.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +375,7 @@
 		};
 		37A3E4A72065E0C1008ED637 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB9ADC0D53F947D6767098B /* Pods-Movin-On-Up.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
