@@ -191,7 +191,7 @@
                 <viewControllerPlaceholder storyboardName="Main" id="5YX-0Y-h45" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfs-gO-D1T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2888" y="258"/>
+            <point key="canvasLocation" x="2613" y="51"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ccX-JG-WMY">
@@ -355,7 +355,7 @@
                                                         <constraint firstAttribute="width" constant="19" id="TXa-JJ-rvJ"/>
                                                     </constraints>
                                                 </imageView>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56K-5A-CTe">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56K-5A-CTe">
                                                     <rect key="frame" x="47" y="6" width="347" height="30"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -458,6 +458,9 @@
                                                     <state key="normal" title="Create A New Account">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="5YX-0Y-h45" kind="show" id="WRF-AK-eCW"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -477,15 +480,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Create New Account" id="7kE-p4-WA3">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-back-filled-50" id="Wh7-Zm-uuM"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-back-filled-50" id="Wh7-Zm-uuM">
+                            <connections>
+                                <segue destination="aQL-Cd-sop" kind="show" id="njR-gI-Jg7"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="5YX-0Y-h45" kind="show" id="Oq6-Xv-ZD2"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26d-7v-WaV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1603" y="-380"/>
+            <point key="canvasLocation" x="1658" y="-395"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BHF-4F-T4H">
@@ -501,7 +505,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAY-bu-TRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="-189"/>
+            <point key="canvasLocation" x="887" y="-195"/>
         </scene>
     </scenes>
     <resources>
