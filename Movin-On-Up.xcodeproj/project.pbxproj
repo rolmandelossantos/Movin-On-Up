@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		374DDC3C2066405E00A7689B /* MentorCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DDC3B2066405E00A7689B /* MentorCatViewController.swift */; };
+		378C353E20664F330036158A /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C353D20664F330036158A /* Artwork.swift */; };
 		37A3E4972065E0C1008ED637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4962065E0C1008ED637 /* AppDelegate.swift */; };
 		37A3E4992065E0C1008ED637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4982065E0C1008ED637 /* ViewController.swift */; };
 		37A3E49C2065E0C1008ED637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49A2065E0C1008ED637 /* Main.storyboard */; };
@@ -18,13 +19,13 @@
 		37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */; };
 		37A3E4B320661DDE008ED637 /* JobMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4B220661DDE008ED637 /* JobMapViewController.swift */; };
 		37A3E4B520661E41008ED637 /* VolunterrMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */; };
-		470BCB03206637BE00D7F097 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470BCB02206637BE00D7F097 /* Artwork.swift */; };
 		6D760D72DFAB834E3DE4D2A1 /* Pods_Movin_On_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movin_On_Up.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DDC3B2066405E00A7689B /* MentorCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorCatViewController.swift; sourceTree = "<group>"; };
+		378C353D20664F330036158A /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		37A3E4932065E0C1008ED637 /* Movin-On-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movin-On-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3E4962065E0C1008ED637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A3E4982065E0C1008ED637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		37A3E4B220661DDE008ED637 /* JobMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMapViewController.swift; sourceTree = "<group>"; };
 		37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunterrMapViewController.swift; sourceTree = "<group>"; };
-		470BCB02206637BE00D7F097 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		7EB9ADC0D53F947D6767098B /* Pods-Movin-On-Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.release.xcconfig"; sourceTree = "<group>"; };
 		C63E520113D8830ABC758E8B /* Pods-Movin-On-Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +63,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		378C353C20664EB50036158A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		37A3E48A2065E0C1008ED637 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +77,7 @@
 				37A3E4942065E0C1008ED637 /* Products */,
 				277B8F1EC581EC599EDC3540 /* Pods */,
 				8683AC78722C0D5F89E313C3 /* Frameworks */,
+				378C353C20664EB50036158A /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +104,7 @@
 				37A3E4B220661DDE008ED637 /* JobMapViewController.swift */,
 				37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */,
 				374DDC3B2066405E00A7689B /* MentorCatViewController.swift */,
+				378C353D20664F330036158A /* Artwork.swift */,
 			);
 			path = "Movin-On-Up";
 			sourceTree = "<group>";
@@ -243,10 +252,10 @@
 			files = (
 				37A3E4B320661DDE008ED637 /* JobMapViewController.swift in Sources */,
 				37A3E4B520661E41008ED637 /* VolunterrMapViewController.swift in Sources */,
+				378C353E20664F330036158A /* Artwork.swift in Sources */,
 				37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */,
 				374DDC3C2066405E00A7689B /* MentorCatViewController.swift in Sources */,
 				37A3E4992065E0C1008ED637 /* ViewController.swift in Sources */,
-				470BCB03206637BE00D7F097 /* Artwork.swift in Sources */,
 				37A3E4972065E0C1008ED637 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

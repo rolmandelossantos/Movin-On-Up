@@ -2,9 +2,10 @@
 //  Artwork.swift
 //  Movin-On-Up
 //
-//  Created by Malik Hawkins on 3/24/18.
+//  Created by Rolman De los Santos on 3/24/18.
 //  Copyright © 2018 Rolman De los Santos. All rights reserved.
 //
+
 
 import Foundation
 import MapKit

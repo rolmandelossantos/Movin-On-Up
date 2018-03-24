@@ -1,0 +1,6 @@
+framework module Pods_Movin_On_Up {
+  umbrella header "Pods-Movin-On-Up-umbrella.h"
+
+  export *
+  module * { export * }
+}
