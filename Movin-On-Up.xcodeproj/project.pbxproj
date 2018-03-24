@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374DDC3C2066405E00A7689B /* MentorCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DDC3B2066405E00A7689B /* MentorCatViewController.swift */; };
 		37A3E4972065E0C1008ED637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4962065E0C1008ED637 /* AppDelegate.swift */; };
 		37A3E4992065E0C1008ED637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4982065E0C1008ED637 /* ViewController.swift */; };
 		37A3E49C2065E0C1008ED637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49A2065E0C1008ED637 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movin_On_Up.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374DDC3B2066405E00A7689B /* MentorCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorCatViewController.swift; sourceTree = "<group>"; };
 		37A3E4932065E0C1008ED637 /* Movin-On-Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movin-On-Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3E4962065E0C1008ED637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A3E4982065E0C1008ED637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */,
 				37A3E4B220661DDE008ED637 /* JobMapViewController.swift */,
 				37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */,
+				374DDC3B2066405E00A7689B /* MentorCatViewController.swift */,
 			);
 			path = "Movin-On-Up";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				37A3E4B320661DDE008ED637 /* JobMapViewController.swift in Sources */,
 				37A3E4B520661E41008ED637 /* VolunterrMapViewController.swift in Sources */,
 				37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */,
+				374DDC3C2066405E00A7689B /* MentorCatViewController.swift in Sources */,
 				37A3E4992065E0C1008ED637 /* ViewController.swift in Sources */,
 				37A3E4972065E0C1008ED637 /* AppDelegate.swift in Sources */,
 			);
