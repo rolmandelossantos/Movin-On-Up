@@ -13,6 +13,10 @@
 		37A3E49E2065E0C1008ED637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49D2065E0C1008ED637 /* Assets.xcassets */; };
 		37A3E4A12065E0C1008ED637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E49F2065E0C1008ED637 /* LaunchScreen.storyboard */; };
 		37A3E4A92065E13B008ED637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E4A82065E13A008ED637 /* GoogleService-Info.plist */; };
+		37A3E4AB2065E579008ED637 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A3E4AA2065E579008ED637 /* Registration.storyboard */; };
+		37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */; };
+		37A3E4B320661DDE008ED637 /* JobMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4B220661DDE008ED637 /* JobMapViewController.swift */; };
+		37A3E4B520661E41008ED637 /* VolunterrMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */; };
 		6D760D72DFAB834E3DE4D2A1 /* Pods_Movin_On_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +30,10 @@
 		37A3E4A02065E0C1008ED637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A3E4A22065E0C1008ED637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A3E4A82065E13A008ED637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37A3E4AA2065E579008ED637 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		37A3E4B220661DDE008ED637 /* JobMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMapViewController.swift; sourceTree = "<group>"; };
+		37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunterrMapViewController.swift; sourceTree = "<group>"; };
 		7EB9ADC0D53F947D6767098B /* Pods-Movin-On-Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.release.xcconfig"; sourceTree = "<group>"; };
 		C63E520113D8830ABC758E8B /* Pods-Movin-On-Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +80,7 @@
 		37A3E4952065E0C1008ED637 /* Movin-On-Up */ = {
 			isa = PBXGroup;
 			children = (
+				37A3E4AA2065E579008ED637 /* Registration.storyboard */,
 				37A3E4962065E0C1008ED637 /* AppDelegate.swift */,
 				37A3E4982065E0C1008ED637 /* ViewController.swift */,
 				37A3E49A2065E0C1008ED637 /* Main.storyboard */,
@@ -79,6 +88,9 @@
 				37A3E49F2065E0C1008ED637 /* LaunchScreen.storyboard */,
 				37A3E4A22065E0C1008ED637 /* Info.plist */,
 				37A3E4A82065E13A008ED637 /* GoogleService-Info.plist */,
+				37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */,
+				37A3E4B220661DDE008ED637 /* JobMapViewController.swift */,
+				37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */,
 			);
 			path = "Movin-On-Up";
 			sourceTree = "<group>";
@@ -153,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A3E4AB2065E579008ED637 /* Registration.storyboard in Resources */,
 				37A3E4A12065E0C1008ED637 /* LaunchScreen.storyboard in Resources */,
 				37A3E4A92065E13B008ED637 /* GoogleService-Info.plist in Resources */,
 				37A3E49E2065E0C1008ED637 /* Assets.xcassets in Resources */,
@@ -223,6 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A3E4B320661DDE008ED637 /* JobMapViewController.swift in Sources */,
+				37A3E4B520661E41008ED637 /* VolunterrMapViewController.swift in Sources */,
+				37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */,
 				37A3E4992065E0C1008ED637 /* ViewController.swift in Sources */,
 				37A3E4972065E0C1008ED637 /* AppDelegate.swift in Sources */,
 			);
