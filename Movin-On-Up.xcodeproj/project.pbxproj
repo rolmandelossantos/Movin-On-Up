@@ -18,6 +18,7 @@
 		37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */; };
 		37A3E4B320661DDE008ED637 /* JobMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4B220661DDE008ED637 /* JobMapViewController.swift */; };
 		37A3E4B520661E41008ED637 /* VolunterrMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */; };
+		470BCB03206637BE00D7F097 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470BCB02206637BE00D7F097 /* Artwork.swift */; };
 		6D760D72DFAB834E3DE4D2A1 /* Pods_Movin_On_Up.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC3780A6DECEB8934F17314 /* Pods_Movin_On_Up.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		37A3E4AC206604E4008ED637 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		37A3E4B220661DDE008ED637 /* JobMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobMapViewController.swift; sourceTree = "<group>"; };
 		37A3E4B420661E41008ED637 /* VolunterrMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunterrMapViewController.swift; sourceTree = "<group>"; };
+		470BCB02206637BE00D7F097 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		7EB9ADC0D53F947D6767098B /* Pods-Movin-On-Up.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.release.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.release.xcconfig"; sourceTree = "<group>"; };
 		C63E520113D8830ABC758E8B /* Pods-Movin-On-Up.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movin-On-Up.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Movin-On-Up/Pods-Movin-On-Up.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,6 +246,7 @@
 				37A3E4AD206604E4008ED637 /* RegistrationViewController.swift in Sources */,
 				374DDC3C2066405E00A7689B /* MentorCatViewController.swift in Sources */,
 				37A3E4992065E0C1008ED637 /* ViewController.swift in Sources */,
+				470BCB03206637BE00D7F097 /* Artwork.swift in Sources */,
 				37A3E4972065E0C1008ED637 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
